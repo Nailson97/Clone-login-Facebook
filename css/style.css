@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #f0f2f5;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+}
+
+.container {
+    width: 979px;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 493px;
+}
+
+.logo img {
+    height: 106px;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+.logo h2 {
+    color: #1c1e21;
+    font-family:'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    display: block;
+    width: 500px;
+    margin-top: -13px;
+}
+
+.formulario {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);  
+    background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+    width: 398px;
+    height: 356px;
+    padding: 3px;
+}
+
+.formulario input {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    width: 364px;
+    height: 53px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding-left: 15px;
+    margin-top: 14px;
+    font-size: 17px;
+    outline: 0;
+    border: 1px solid #dddfe2;
+    color: #C1C1C1;
+    cursor:pointer;
+}
+
+input:focus {
+    outline: 0;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+}
+
+input[type=submit] {
+    width:376px;
+    background-color: #1877f2;
+    border: none;
+    padding: 0 16px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top:14px;
+    font-weight: bold;
+}
+
+#botao-azul:hover {
+    background-color: #166fe5;
+}
+
+.formulario a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 17px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dddfe2;
+}
+
+.formulario a:hover {
+    text-decoration:underline;
+}
+
+button {
+    display: block;
+    width: 166px;
+    height: 49px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    margin:30px auto;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 16px;
+    outline:0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #36a420;
+}
+
+#preto {
+    color: #1C1E21;
+    display:inline-block;
+    font-weight: bold;
+}
+
+#final {
+    width: 460px;
+}
+
+#final h2 {
+    line-height: 14px;
+    display: inline;
+    font-size: 14.5px;
+    font-weight: normal;
+    
+}
